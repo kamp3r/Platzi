@@ -1,0 +1,82 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.05rem;
+}
+body{
+  background-color: rgb(72, 144, 167);
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cuadradoContainer{
+  width: 33,3%;
+  font-size: 1.5rem;
+  margin: 3rem;
+}
+
+.cuadradoContainer form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.trianguloContainer{
+  width: 33,3%;
+  font-size: 1.5rem;
+  margin: 3rem;
+}
+
+.trianguloContainer form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circuloContainer{
+  width: 33,3%;
+  font-size: 1.5rem;
+  margin: 3rem;
+}
+
+.circuloContainer form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cuadradoContainer form input, .trianguloContainer form input, .circuloContainer form input{
+  font-size: 1.6rem;
+  text-align: center;
+  margin: .8rem;
+  width: 40rem;
+}
+
+.cuadradoContainer form button, .trianguloContainer form button, .circuloContainer form button{
+  margin: .6rem;
+  font-size: 1.6rem;
+  padding: .5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+p{
+  text-align: center;
+}

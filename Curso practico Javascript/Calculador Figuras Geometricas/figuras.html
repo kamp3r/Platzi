@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Figuras Geométricas</title>
+  </head>
+  <body>
+    <header>
+      <h1>Figuras Geométricas</h1>
+      <p>Primer ejercicio</p>
+    </header>
+    <div class="container">
+      <section class="cuadradoContainer">
+        <h2>Calcula el área y perímetro de un cuadrado</h2>
+        <form>
+          <label for="campoCuadrado"></label>Ingresa cuando mide uno de los
+          lados de tu cuadrado<input
+            type="number"
+            id="inputCuadrado"
+            name="campoCuadrado"
+            placeholder="Uno de los lados de tu cuadrado"
+          />
+          <button type="button" onclick="calcularPerimetroCuadrado()">
+            Calcula el perímetro
+          </button>
+          <button type="button" onclick="calcularAreaCuadrado()">
+            Calcula el área
+          </button>
+          <button type="button" onclick="borrarCuadrado()">
+            Borrar todos mis calculos
+          </button>
+        </form>
+        <div id="resultadoCuadrado"></div>
+      </section>
+      <section class="trianguloContainer">
+        <h2>Calcula el área y perímetro de un triangulo</h2>
+        <form>
+          <label for="campoTrianguloA"></label>Ingresa cuando mide el lado A de
+          tu triangulo<input
+            type="number"
+            id="inputTrianguloA"
+            name="campoTrianguloA"
+            placeholder="Lado A"
+          />
+          <label for="campoTrianguloB"></label>Ingresa cuando mide el lado B de
+          tu triangulo<input
+            type="number"
+            id="inputTrianguloB"
+            name="campoTrianguloB"
+            placeholder="Lado B"
+          />
+          <label for="campoTrianguloBase"></label>Ingresa cuando mide la base de
+          tu triangulo<input
+            type="number"
+            id="inputTrianguloBase"
+            name="campoTrianguloBase"
+            placeholder="Base"
+          />
+          <label for="campoTrianguloAltura"></label>Ingresa cuando mide la
+          altura de tu triangulo<input
+            type="number"
+            id="inputTrianguloAlt"
+            name="campoTrianguloAltura"
+            placeholder="Altura"
+          />
+          <button type="button" onclick="calcularPerimetroTriangulo()">
+            Calcula el perímetro
+          </button>
+          <button type="button" onclick="calcularAreaTriangulo()">
+            Calcula el área
+          </button>
+          <button type="button" onclick="calcularAlturaIsosceles()">
+            Calcula la altura del triangulo isoceles
+          </button>
+          <button type="button" onclick="borrarTriangulo()">
+            Borrar todos mis calculos
+          </button>
+        </form>
+        <div id="resultadoTriangulo"></div>
+      </section>
+      <section class="circuloContainer">
+        <h2>Calcula el área y perímetro de un circulo</h2>
+        <form>
+          <label for="campoCirculo"></label>Ingresa cuando mide uno de los lados
+          de tu circulo<input
+            type="number"
+            id="inputCirculo"
+            name="campoCirculo"
+            
+          />
+          <button type="button" onclick="calcularDiametroCirculo()">
+            Calcula el perímetro
+          </button>
+          <button type="button" onclick="calcularPerimetroCirculo()">
+            Calcula el área
+          </button>
+          <button type="button" onclick="calcularAreaCirculo()">
+            Calcula el área
+          </button>
+          <button type="button" onclick="borrarCirculo()">
+            Borrar todos mis calculos
+          </button>
+        </form>
+        <div id="resultadoCirculo"></div>
+      </section>
+    </div>
+
+    <script src="./figuras.js"></script>
+  </body>
+</html>
