@@ -1,0 +1,13 @@
+"use strict";
+let nullVariable;
+nullVariable = null;
+let otherNull = null;
+otherNull = 2;
+console.log('nullVariable', nullVariable);
+console.log('otherNull', otherNull);
+let undefinedVariable = undefined;
+let anotherUndefined = undefined;
+anotherUndefined = 'PerroLoco';
+console.log('undefinedVariable', undefinedVariable);
+console.log('anotherUndefined', anotherUndefined);
+let albumName;
