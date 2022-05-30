@@ -21,5 +21,7 @@ function handleError(code, message) {
         return 'An error has ocurred';
     }
 }
-let result = handleError(404, 'error');
+let result = handleError(200, 'ok');
+console.log(result);
+result = handleError(404, 'error');
 console.log(result);

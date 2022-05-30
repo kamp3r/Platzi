@@ -7,3 +7,5 @@ enum PhotoOrientation {
 
 const landscape: PhotoOrientation = PhotoOrientation.Landscape;
 console.log('landscape', landscape);
+
+export {}
