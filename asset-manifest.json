@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kamp3r/Platzi/tree/main/react-to-do/static/css/main.9cdffb0d.css",
+    "main.js": "/kamp3r/Platzi/tree/main/react-to-do/static/js/main.d38b713c.js",
+    "index.html": "/kamp3r/Platzi/tree/main/react-to-do/index.html",
+    "main.9cdffb0d.css.map": "/kamp3r/Platzi/tree/main/react-to-do/static/css/main.9cdffb0d.css.map",
+    "main.d38b713c.js.map": "/kamp3r/Platzi/tree/main/react-to-do/static/js/main.d38b713c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cdffb0d.css",
+    "static/js/main.d38b713c.js"
+  ]
+}
